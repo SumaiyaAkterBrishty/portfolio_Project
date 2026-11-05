@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
 }
 ul,ol{
     list-style-type: none;
@@ -14,8 +16,26 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
 }
-/* all common css end  */
-/* all common css start  */
-/* all common css start  */
-/* all common css start  */
+/*  all common css end  */
+/* header section style start  */
+#headerPart{
+    padding: 30px 0;
+}
+ .navbar-nav .nav-item .nav-link{
+  margin-left: 46px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.headerbtn a{
+    background: #5E3BEE;
+    color: #FFFFFF;
+    padding: 11px 22px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* header section style  */
 /* all common css start  */
