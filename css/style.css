@@ -21,6 +21,12 @@ h1,h2,h3,h4,h5,h6,p{
 #headerPart{
     padding: 30px 0;
 }
+.bannerPart{
+    background-color: #F9F9FC;
+}
+.bannerPartContent{
+    padding: 120px 0;
+}
  .navbar-nav .nav-item .nav-link{
   margin-left: 46px;
   font-weight: 400;
@@ -36,6 +42,45 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 50px;
     font-weight: 500;
     font-size: 14px;
+}
+.bannerPartContent h4{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color: #5E3BEE;
+}
+.bannerPartContent h1 {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 78px;
+   color: #333333; 
+   width: 479px;
+   margin: 32px 0;
+}
+.bannerbtn .contactbtn{
+    background: #5E3BEE;
+    color: #FFFFFF;
+    padding: 23px 38px;
+    border-radius: 50px;
+    margin-right: 23px;
+}
+.bannerbtn .downloadbtn{
+    background: #5E3BEE;
+    color: #FFFFFF;
+    padding: 23px 38px;
+    border-radius: 50px;
+}
+.bannerbtn .contactbtn:hover{
+   background: transparent;
+   color: #333333;
+}
+.bannerbtn .downloadbtn:hover{
+   background: transparent;
+   color: #333333;
+}
+.bannerimg{
+    padding-top: 16px;
+    padding-bottom: 44px;
 }
 /* header section style  */
 /* all common css start  */
